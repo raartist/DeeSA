@@ -1,7 +1,7 @@
 // we'll learn if our array contains duplicate elements
 
 // approach1- two nested for loops and if finds return true;
-export default function ifDuplicate(arr) {
+function ifDuplicate1(arr) {
   for (let i = 0; i < arr.length; i++) {
     for (let j = i + 1; j < arr.length; j++) {
       if (arr[i] === arr[j]) {
@@ -13,5 +13,5 @@ export default function ifDuplicate(arr) {
 }
 
 const arr1 = [1, 2, 3, 1];
-const result = ifDuplicate(arr1);
+const result = ifDuplicate1(arr1);
 console.log("Contains Duplicate element? ", result);
