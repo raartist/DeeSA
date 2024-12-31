@@ -1,3 +1,3 @@
-import { isAnagram } from "./anagram.js";
+import { isAnagramWithArray } from "./anagram.js";
 
-console.log(isAnagram("car","rat"));
+console.log(isAnagramWithArray("racelcar","carrace"));
